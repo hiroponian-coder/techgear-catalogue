@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { ChevronRight, Mail, Phone, Building2 } from "lucide-react";
 
