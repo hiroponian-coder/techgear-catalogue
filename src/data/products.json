@@ -1,0 +1,122 @@
+[
+  {
+    "id": "robot-arm-01",
+    "name": "高精度組立用ロボットアーム TGR-500",
+    "category": "産業用ロボット",
+    "description": "0.01mmの精度を誇る最新鋭の組立工程用ロボットアーム。軽量かつ省スペース設計で、既存ラインへの組み込みが容易です。ティーチングペンダントによる直感的な操作が可能です。",
+    "image_url": "/images/categories/industrial_robot.png",
+    "specs": {
+      "可搬質量": "5kg",
+      "最大リーチ": "850mm",
+      "繰り返し精度": "±0.01mm",
+      "本体重量": "35kg",
+      "電源": "三相 AC200V"
+    },
+    "features": [
+      "省スペース",
+      "高耐久",
+      "IoT対応"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "robot-arm-02",
+    "name": "重量物搬送ロボット TGR-1000 Heavy",
+    "category": "産業用ロボット",
+    "description": "最大100kgの可搬質量を持つ大型ロボットアーム。パレタイジング工程や大型部品の搬送に最適。独自の安全機構により、人との協働作業（オプション要員）にも対応可能なモデルです。",
+    "image_url": "/images/categories/industrial_robot.png",
+    "specs": {
+      "可搬質量": "100kg",
+      "最大リーチ": "1500mm",
+      "繰り返し精度": "±0.05mm",
+      "本体重量": "150kg",
+      "電源": "三相 AC200V/400V"
+    },
+    "features": [
+      "重負荷対応",
+      "安全機構搭載",
+      "ロングリーチ"
+    ],
+    "isNew": false
+  },
+  {
+    "id": "motor-01",
+    "name": "超小型ステッピングモーター SX-20",
+    "category": "精密モーター",
+    "description": "医療機器や小型ロボット関節部への組み込みを想定した、超小型かつ高トルクなステッピングモーター。発熱を極限まで抑えた独自のコイル巻き線技術を採用しています。",
+    "image_url": "/images/categories/stepper_motor.png",
+    "specs": {
+      "サイズ": "20mm × 20mm × 30mm",
+      "基本ステップ角": "1.8度",
+      "保持トルク": "0.1Nm",
+      "定格電流": "0.5A/相",
+      "重量": "40g"
+    },
+    "features": [
+      "超小型設計",
+      "低発熱",
+      "高信頼性"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "motor-02",
+    "name": "ACサーボモーター PRO-Series 400W",
+    "category": "精密モーター",
+    "description": "工作機械等の送り軸用途に最適な高応答・高精度ACサーボモーター。17ビットの高分解能エンコーダを標準搭載し、滑らかな位置決め制御を実現します。",
+    "image_url": "/images/categories/stepper_motor.png",
+    "specs": {
+      "定格出力": "400W",
+      "定格トルク": "1.27Nm",
+      "最大トルク": "3.81Nm",
+      "定格回転速度": "3000r/min",
+      "エンコーダ": "17ビット アブソリュート"
+    },
+    "features": [
+      "高応答",
+      "高分解能",
+      "防水・防塵設計"
+    ],
+    "isNew": false
+  },
+  {
+    "id": "control-01",
+    "name": "統合プログラマブルコントローラ CX-9000",
+    "category": "制御システム",
+    "description": "ライン全体の設備を統括制御するハイエンドPLC。EtherCATによる高速なネットワーク通信に対応し、数百軸単位のモーター同期制御をマイクロ秒単位で実行します。",
+    "image_url": "/images/categories/plc_controller.png",
+    "specs": {
+      "演算速度": "0.1μs / 1命令",
+      "I/O点数": "最大2048点",
+      "プログラム容量": "500Kステップ",
+      "ネットワーク通信": "EtherCAT, PROFINET",
+      "電源電圧": "DC24V"
+    },
+    "features": [
+      "超高速処理",
+      "多軸同期",
+      "拡張性"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "control-02",
+    "name": "エッジAI解析ターミナル SmartBox-AI",
+    "category": "制御システム",
+    "description": "工場内の各種センサー・カメラ情報を現場レベル（エッジ）で一次処理し、異常検知や予知保全を可能にする小型AI端末。過酷なFA環境での動作を保証するファンレス設計です。",
+    "image_url": "/images/categories/plc_controller.png",
+    "specs": {
+      "CPU": "ARM Cortex-A72 Quad-core",
+      "NPU": "独自AIアクセラレータ内蔵",
+      "メモリ": "8GB LPDDR4",
+      "ストレージ": "64GB eMMC",
+      "動作温度": "-10℃ ～ +60℃"
+    },
+    "features": [
+      "AI推論機能",
+      "強牢設計",
+      "ファンレス"
+    ],
+    "isNew": false
+  }
+]
